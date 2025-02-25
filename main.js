@@ -22,12 +22,13 @@ a = b;
 
 let x = 10;
 let y = 13;
+
 x *= y; // => x = x+y  => 10 - 13
 
 let ch1 = "hello";
 let ch2 = " fahd";
 
-ch1 += ch2;
+ch1 += ch2; //
 console.log(ch1);
 
 /*
