@@ -1,3 +1,5 @@
+//https://github.com/Medrhz/javascript-Jr-2eme/
+
 // Accès aux caractères
 let chTest = "hello";
 let chTest1 = "hello";
@@ -8,7 +10,8 @@ let city = "sale";
 console.log("helle " + name + " your age is " + age + " your city is " + city);
 console.log(`hello ${name} your age is ${age} and your city is ${city}`);
 let var1 = "hello javascript";
-console.log(var1.length);
+console.log(var1.length); //
+console.log("char at");
 console.log(var1.charAt(var1.length - 1));
 console.log(var1.at(-1));
 // console.log("Hello".charAt(1)); // "e"  → Retourne le caractère à l'index donné
@@ -44,6 +47,7 @@ console.log("Hello".endsWith("com")); // true → Vérifie si la chaîne se term
 /// Extraction de sous-chaînes
 let sStirng = "hello java".slice(0, 5);
 console.log(sStirng);
+console.log("slise");
 console.log("JavaScript".slice(3, 5)); // "Java"  → Extrait une portion de la chaîne
 console.log("JavaScript".substring(0, 4)); // "Java" → Similaire à slice()
 console.log("JavaScript".substr(4, 6)); // "Script" → (Obsolète)
@@ -60,8 +64,8 @@ console.log("slicing" + varSlicing.toUpperCase());
 console.log(`new email : ${newEmail}`);
 
 // // Division et fusion de chaînes
-// console.log("a,b,c".split(",")); // ["a", "b", "c"] → Divise la chaîne en tableau
-// console.log(["a", "b", "c"].join("-")); // "a-b-c" → Joint les éléments du tableau en une chaîne
+// console.log("a-bbbb-c".split("-")); // ["a", "bbbb", "c"] → Divise la chaîne en tableau
+// console.log(["a", "b", "c"].join("#")); // "a-b-c" → Joint les éléments du tableau en une chaîne
 
 // // Répétition et Padding
 // console.log("Hi".repeat(3)); // "HiHiHi" → Répète la chaîne 3 fois
