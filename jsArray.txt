@@ -167,3 +167,79 @@ console.log(arr.toSorted()); // Trie sans modifier l'original
 console.log(arr.toReversed()); // Inverse sans modifier l'original
 console.log(arr.toSpliced(1, 2, 99)); // Remplace sans modifier l'original
 console.log(arr.with(2, 42)); // Remplace l'élément à l'index 2 sans modifier l'original
+
+
+
+
+🔹 Exercice 1 : Manipulation de base
+Crée un tableau nombres contenant les nombres [10, 20, 30, 40, 50].
+Ajoute 60 à la fin du tableau.
+Ajoute 5 au début du tableau.
+Supprime le dernier élément.
+Supprime le premier élément.
+Affiche le tableau final.
+📌 Méthodes à utiliser : push(), pop(), unshift(), shift()
+
+🔹 Exercice 2 : Recherche d'éléments
+Crée un tableau fruits contenant ["Pomme", "Banane", "Orange", "Mangue", "Kiwi"].
+Trouve l’index de "Mangue".
+Vérifie si "Fraise" est dans le tableau.
+Trouve un fruit contenant la lettre "o".
+Trouve le dernier fruit contenant "a".
+📌 Méthodes à utiliser : indexOf(), includes(), find(), findIndex(), lastIndexOf()
+
+🔹 Exercice 3 : Transformation de tableaux
+Crée un tableau notes contenant [12, 15, 8, 19, 10].
+Multiplie chaque élément par 2.
+Filtre les valeurs supérieures ou égales à 20.
+Trie le tableau en ordre croissant.
+Transforme le tableau en une seule chaîne de caractères séparée par -.
+📌 Méthodes à utiliser : map(), filter(), sort(), join()
+
+🔹 Exercice 4 : Calculs avec reduce()
+Crée un tableau prix contenant [100, 250, 300, 50, 400].
+Calcule la somme totale des prix.
+Trouve le prix maximum.
+Trouve le prix minimum.
+📌 Méthodes à utiliser : reduce(), Math.max(), Math.min()
+
+🔹 Exercice 5 : Itération avec forEach et for...of
+Crée un tableau animaux contenant ["Chat", "Chien", "Oiseau", "Poisson"].
+Affiche chaque animal en majuscules avec forEach().
+Affiche chaque animal avec for...of.
+📌 Méthodes à utiliser : forEach(), for...of
+
+🔹 Exercice 6 : Extraction avec slice() et splice()
+Crée un tableau jours contenant ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"].
+Extrais les 3 premiers jours dans un nouveau tableau avec slice().
+Supprime "Mercredi" du tableau original avec splice().
+📌 Méthodes à utiliser : slice(), splice()
+
+🔹 Exercice 7 : Fusion et aplatissement
+Crée deux tableaux :
+hommes = ["Ali", "Youssef"]
+femmes = ["Sofia", "Lina"]
+Fusionne les deux tableaux en un seul personnes.
+Ajoute "Samir" au début du tableau personnes.
+Crée un tableau imbriqué groupe = [[1, 2], [3, 4], [5, 6]].
+Aplatis le tableau groupe en un tableau simple.
+📌 Méthodes à utiliser : concat(), flat()
+
+🔹 Exercice 8 : Vérification de conditions
+Crée un tableau ages contenant [18, 25, 16, 20, 30].
+Vérifie si tous les âges sont supérieurs ou égaux à 18.
+Vérifie si au moins un âge est inférieur à 18.
+📌 Méthodes à utiliser : every(), some()
+
+
+
+
+
+
+
+
+
+
+
+
+
